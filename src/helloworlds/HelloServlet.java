@@ -21,14 +21,12 @@ public class HelloServlet extends HttpServlet {
      */
     public HelloServlet() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 	response.setContentType("text/html");
 	PrintWriter printwriter = response.getWriter();
 	printwriter.println("<h1>Chnages made in hello world</h1>");
@@ -39,7 +37,6 @@ public class HelloServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
 		doGet(request, response);
 	}
 
